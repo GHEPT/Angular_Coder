@@ -1,0 +1,23 @@
+$background-footer: rgb(70, 63, 77);
+$title-footer: rgb(255, 255, 255);
+$span-nav: rgb(104, 220, 250);
+
+.footer{
+    background-color: $background-footer;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    max-height: 40px;
+
+    span{
+        color: $title-footer;
+        font-weight: lighter;
+        font-size: .8rem;
+
+        span {
+            color: $span-nav;
+            font-weight: 500;            
+        }
+    }
+}

@@ -1,0 +1,29 @@
+$background-nav: rgb(104, 220, 250);
+$title-nav: rgb(78, 0, 142);
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $background-nav;
+
+    a{
+        display:flex;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .logo{
+        max-height: 35px;
+    }
+
+    .title-group{
+        padding-left: 25px;
+        color: #ffffff;
+        
+        i{
+            padding-right: 5px;
+        }
+
+    }
+}

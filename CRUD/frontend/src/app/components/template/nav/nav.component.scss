@@ -1,0 +1,30 @@
+$background-nav: rgb(78, 0, 142);
+$title-nav: rgb(104, 220, 250);
+$hover-nav: rgb(70, 0, 128);
+
+.sidenav{
+    width: 150px;
+    display: flex;
+    background-color: $background-nav;
+
+    a{
+        color: $title-nav;
+    }
+
+    i{
+        padding-right: 10px;
+        color: $title-nav;
+        vertical-align: middle;
+    }
+}
+
+.nav-list{
+    :hover{
+        background-color: $hover-nav;
+    }
+}
+
+.content{
+    padding: 16px;
+    background-color: rgb(0, 40, 90);
+}
