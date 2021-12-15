@@ -1,4 +1,4 @@
-$background-nav: rgb(104, 220, 250);
+$background-nav: rgb(255, 255, 255);
 $title-nav: rgb(78, 0, 142);
 
 .header{
@@ -15,6 +15,7 @@ $title-nav: rgb(78, 0, 142);
 
     .logo{
         max-height: 35px;
+        margin-left: 5vw;
     }
 
     .title-group{

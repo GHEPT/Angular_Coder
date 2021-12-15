@@ -1,11 +1,14 @@
-$background-nav: rgb(78, 0, 142);
-$title-nav: rgb(104, 220, 250);
-$hover-nav: rgb(70, 0, 128);
+$background-nav: #424242;
+$title-nav: rgb(255, 255, 255);
+$hover-nav: #B52e31;
 
 .sidenav{
-    width: 150px;
+    width: 15vw;
     display: flex;
     background-color: $background-nav;
+    margin-left: 50px;
+    margin-top: 2%;
+    border-radius: 8px 8px 0 0;
 
     a{
         color: $title-nav;
@@ -25,6 +28,6 @@ $hover-nav: rgb(70, 0, 128);
 }
 
 .content{
-    padding: 16px;
-    background-color: rgb(0, 40, 90);
+    padding: 27px 0 67vh 80px;
+    margin-right: 25px;
 }
